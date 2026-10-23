@@ -12,3 +12,9 @@ Reproducibility notebooks for:
 - `Fig3_heat_responsive_alleles_and_motifs.ipynb`
 - `Fig4_HSP_Kunitz_supplement.ipynb`
 - `Fig5_isoform_expression.ipynb`
+
+## Quality control
+
+- `multiqc_report.html`: MultiQC report of the long-read RNA-seq (PacBio Kinnex) processing with
+  nf-core/plantlongrnaseq against the haplotype-resolved Désirée genome (FastQC, Kraken, samtools
+  alignment statistics, software versions). Download and open it in a web browser.
