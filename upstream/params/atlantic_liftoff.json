@@ -1,6 +1,6 @@
 {
-    "reference_fasta": "/scratch/nadjafn/reference/Atlantic/ATL_v3.asm.fa",
-    "reference_gff": "/scratch/nadjafn/reference/Atlantic/unitato2Atl.no_scaffold.no_hap0.gff3",
+    "reference_fasta": "reference/Atlantic/ATL_v3.asm.fa",
+    "reference_gff": "reference/Atlantic/unitato2Atl.no_scaffold.no_hap0.gff3",
     "ploidy": 4,
     "outdir": "output_atlantic_liftoff"
 }

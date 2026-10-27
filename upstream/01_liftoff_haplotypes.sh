@@ -11,19 +11,19 @@ GENOME=${1:?usage: $0 desiree|atlantic}
 BIN=$(dirname "$0")/bin
 
 # reference annotation (UniTato on DM v6.1)
-REF_FA=/scratch/nadjafn/reference/ADAPT_liftoff/UniTato_nuc_mt_plast.manualfix.nfn.fa
-REF_GFF=/scratch/nadjafn/reference/ADAPT_liftoff/UniTato_nuc_mt_plast.manualfix.nfn_chr.gff3
+REF_FA=reference/ADAPT_liftoff/UniTato_nuc_mt_plast.manualfix.nfn.fa
+REF_GFF=reference/ADAPT_liftoff/UniTato_nuc_mt_plast.manualfix.nfn_chr.gff3
 
 case $GENOME in
     desiree)
-        TARGET_FA=/scratch/nadjafn/reference/Desiree_v1/De_v1.fa
-        OUT=/scratch/nadjafn/reference/Desiree_v1/liftoff_unitato
+        TARGET_FA=reference/Desiree_v1/De_v1.fa
+        OUT=reference/Desiree_v1/liftoff_unitato
         PREFIX=unitato2De
         chr_name() { echo "chr_${1}_${2}"; }   # chr_01_1
         ;;
     atlantic)
-        TARGET_FA=/scratch/nadjafn/reference/Atlantic/ATL_v3.asm.fa
-        OUT=/scratch/nadjafn/Atlantic_reference_liftoff/output/liftoff_unitato
+        TARGET_FA=reference/Atlantic/ATL_v3.asm.fa
+        OUT=Atlantic_reference_liftoff/output/liftoff_unitato
         PREFIX=unitato2Atl
         chr_name() { echo "chr${1}_${2}"; }    # chr01_1
         ;;
