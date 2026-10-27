@@ -8,12 +8,12 @@
 # Env: blast (makeblastdb, blastn); GNU awk
 set -euo pipefail
 
-WD=/scratch/nadjafn/SV_whole_genome_desiree
-SV_IDS=/scratch/nadjafn/LR_DESIREE_PAPER/ANALYSIS/ASE_results/SV_analysis/one_sv_50_id_chrom.csv
+WD=SV_whole_genome_desiree
+SV_IDS=LR_DESIREE_PAPER/ANALYSIS/ASE_results/SV_analysis/one_sv_50_id_chrom.csv
 SYRI_DIR=$WD/output/syri_output
 OUT_SEQ_DIR=$WD/output/SV_sequences
 TE_DIR=$WD/output/TE_analysis
-EDTA_LIBS=(/scratch/timg/desiree_annotation/edta/De_v1_hap*/*TElib.fa)
+EDTA_LIBS=(desiree_annotation/edta/De_v1_hap*/*TElib.fa)
 mkdir -p "$OUT_SEQ_DIR" "$TE_DIR"
 
 > "$OUT_SEQ_DIR/sv_sequences_all.fa"

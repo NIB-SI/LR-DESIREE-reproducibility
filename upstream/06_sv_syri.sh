@@ -7,10 +7,10 @@
 set -euo pipefail
 
 BIN=$(cd "$(dirname "$0")" && pwd)/bin
-WD=/scratch/nadjafn/SV_whole_genome_desiree
+WD=SV_whole_genome_desiree
 
-ref=/scratch/nadjafn/reference/Desiree_v1/De_v1.fa
-gff=/scratch/nadjafn/reference/Desiree_v1/De_v1.unitato_liftoff_haplotap.gff3
+ref=reference/Desiree_v1/De_v1.fa
+gff=reference/Desiree_v1/De_v1.unitato_liftoff_haplotap.gff3
 fasta_dir=$WD/individual_seqs
 alignment_dir=$WD/alignments
 syri_out=$WD/output/syri_output

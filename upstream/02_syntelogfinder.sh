@@ -10,7 +10,7 @@
 set -euo pipefail
 
 PARAMS=$(cd "$(dirname "$0")" && pwd)/params
-MCSCANX=/DKED/scratch/nadjafn/MCScanX
+MCSCANX=MCScanX
 
 # Désirée
 nextflow run main.nf -resume \
