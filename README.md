@@ -12,6 +12,8 @@ Reproducibility notebooks for:
 - `Fig3_heat_responsive_alleles_and_motifs.ipynb`
 - `Fig4_HSP_Kunitz_supplement.ipynb`
 - `Fig5_isoform_expression.ipynb`
+- `upstream/`: scripts for the upstream processing (annotation liftoff, syntelogs, RNA-seq,
+  ATAC-seq, structural variants, TE analysis); see `upstream/README.md`
 
 ## Quality control
 
