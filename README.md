@@ -15,6 +15,10 @@ Figure notebooks:
 - `Fig4_HSP_Kunitz_supplement.ipynb`
 - `Fig5_isoform_expression.ipynb`
 
+The input tables of the figure notebooks are in `clean_data/`, one folder per figure (Fig2 and
+the supplementary panels share `clean_data/Fig2_ASE_SV_promoter_analysis/`). Run the notebooks
+from the repository root; plots are written to `figures/`.
+
 Code that produces the figure inputs:
 
 - `upstream/`: annotation liftoff, syntelogs, RNA-seq, ATAC-seq, structural variants and TE

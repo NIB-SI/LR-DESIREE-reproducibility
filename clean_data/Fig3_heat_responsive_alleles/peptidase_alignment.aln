@@ -1,0 +1,110 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+H3              -------------TACACTGAGGCAAACAAACATCTCAGTGTAATTACTAAGTTGGTAAT
+H4              GAACATGTGTAACTACACTGAGGCAAACAAACATGTCAGTGTAATTACTAAGTTGATAAT
+                             ********************* ********************.****
+
+H3              TACTATCCTAGTAATTGCACCAATTCCAATTACCAGGTGGCTTTCTAAACAGATATCTTA
+H4              TACTATCCTAATAATTACACCAATTCCAATTACCAGGTATCTTTCTAAACAGATATCTTA
+                **********.*****.*********************. ********************
+
+H3              CGTATCGATTTCAATATAATATTTGGACTGTTGCTTTATAAATTTGATTTTTTTAGTTCG
+H4              CGTATCGATTTCAATATAT---TTGGACTGTTGCTTTATAAATTTGATTTTTTTAGTTCG
+                ******************:   **************************************
+
+H3              ATGATACATTAATATTAATATATAATATAAATTAATGGACCACATAGTGGTGATGCTAGT
+H4              ATGATACATTAATATTAATATATAATATAAATTAATGGACCACATAGTGGTAATGCTAGT
+                ***************************************************.********
+
+H3              TTTGTCCACATCAGTCATTACGAGCAGAAGGGTGATTACATTTAAATGGACCACATAGTG
+H4              TTTGTCCATATCAGTCATTACGAGCAGAAGGGTGATTACATTTAAATGGACCACATAGTG
+                ******** ***************************************************
+
+H3              GTGGTGGTGTTAGTTTTGTCCACATCACGAGCAGAAGGGG----GAGTATATACAAGAAA
+H4              ---GTGGTGTTAGTTTTGTCCACATCACGAGCAGAAGGGGGAGTGAGTATATACAAGAAA
+                   *************************************    ****************
+
+H3              CTAACTCAAGCAGCTCTTCGTTGTCATACTTGCTTGTCGATAAGGGGCACTTTCGGTATA
+H4              CTAACTCAAGCAGCTCTTCGTTGTCATACTTGCTTGTCGATAAGAGGCACTTTCGGTATA
+                ********************************************.***************
+
+H3              TTATTAATTAATAGCTTTGAATGTCTTGTATAAAATTCTGTTAATACTTTTACTATTGCT
+H4              TTATTAATTAATAGCTTTGGATGTCTTGTATAAAATTCTGTTAATAGTTTTACTATTGCT
+                *******************.************************** *************
+
+H3              TTTAAAGGACAAAAATGCCAAGGCATGTTTACTTATTTATTTATTTGTCCTCCAAAAAGA
+H4              TTTAAAGGACAAAAATGCCAAGGCATGTTTACTTATTTATTTATTTGTCCTCCGAAAAGA
+                *****************************************************.******
+
+H3              ATTCTACTGCCCTGATTTGTGGACCCCATCGCCCATCCTGTGCTATTAACTTACACTTTT
+H4              ATTCTACTGCCCTGATTTGTGGACCCCATCGTCCATCCTGTGCTATTAACTTACACTTTC
+                ******************************* *************************** 
+
+H3              TATTGTAGTGGAAAAAACTTATCCGCACTAAATATATACACAAATTCAAATACATGCTTA
+H4              TATTATAGTGGAAAAAACTTATTCGCACCAAATATATACACAAAT-TTAATACATGCTTA
+                ****.***************** ***** ****************  :************
+
+H3              GTGTTACACATTAAAATACCCTAATATATATTATTTGAAATAACTAAGTAGTACGTAGTA
+H4              TTGTTACACATTAAAATACTCTAATATATATTATTTGAAATAACTAAGAAGTACGTAGTA
+                 ****************** ****************************:***********
+
+H3              TATAGAGCCAAATGATTGGGAGTTGTCTAAATTATATATATATAATAATCATTAATCAAC
+H4              TATAGAGCCAAATGATTGGGAGTTGTCTAAATTATATATATATGATAATCATTAATCAAC
+                *******************************************.****************
+
+H3              ATATATATA--ATTATCTTCCTAGAATTGGTTAGTAAACAATAGATAATACAAGTAATAA
+H4              ATATATATATAATTATCTTCCTAGAATTGGTAAGTAAACAATAGATAATACAAGTAATAA
+                *********  ********************:****************************
+
+H3              TATTATTATATTATTTTTTGAATATATTAAATTTAATACTTTGAAAAGTATTATTAGATA
+H4              TATTATTATATTATTTTTTGAATATATTAAATTTAATACTTTGAAAAGTATTATTAGATA
+                ************************************************************
+
+H3              TTAAATGCATAGATATAAAAGGGTTAGTTTTTCAAACTGAACAAATATTATTAACAGTGG
+H4              TTAAAG---------------GGTTAGTTTTTCAAACTGAACAAATATTATTAACAGTGG
+                *****                ***************************************
+
+H3              CGTATGCAGGATTTTTCATAAGCGGTGTCGCATTTTAAAATAAAAAAAATTATAATATTA
+H4              CGTATGCATGATTTTTCATAAGCGTTGTCGCATTTTAAAATAAAATAAATTTTTT-----
+                ******** *************** ********************:*****:*::     
+
+H3              TATTAAAAAATTTTAAAAAAATTTTAGCATTTTTATGTGTGTAGCGAAATATATTTAAAT
+H4              ----------------------TTTAGCATTTTTATGTGTATAGCGAAATATATTTAAAT
+                                      ******************.*******************
+
+H3              TAAAAAAAATTAACCAAGAAAGAAAAAGGTGGTATTGAGGTTTGAACACCCAACTTCAAA
+H4              TAAAATAAATTAACCAAGAAA-------GTGGTATTGAGGTTTGAACACCCAACTTCAAA
+                *****:***************       ********************************
+
+H3              GAAGTG---AAATACCCTGACCAACT----------------TGGTTCAAGGAGTGTCAC
+H4              CAAGAAGTGAAATACCCTGACCAACTGAGCTACGCTCCTACTTGGTTCAAGGAGCGTCAA
+                 ***:.   *****************                ************ ****.
+
+H3              TTTATTCTATTTGTTCTTT-ATTTAAAGTTTGCTTTTCAGTTATTTATAATTATTTAATA
+H4              TTTATTCTATTTGTTCTTCTATTTACAGTTTGCTTTTCAGTTATTTATAATTATTTAATA
+                ******************  *****.**********************************
+
+H3              AAAAATTTCGACGAAGCCGTGTCACATGAAACACGTTCGCCTATG---------------
+H4              AAAAATCTCGACGAAGCCGTGTGACATGAAACACCTTCGCCTAAGGCAAGGCAAATCCGC
+                ****** *************** *********** ********:*               
+
+H3              -----ATTATTAAACAACTATATTTAGTATATTTAGTATAATGGAAAAATATTGATAATG
+H4              CCCTGATTATTAAACAACTATAT-----ATATTTAGTATAATGGAAAAATATTGATAATG
+                     ******************     ********************************
+
+H3              GTGGCATACTGTACAACACGTTTTACACGATACATATATTATGTGGACATGGATTTTACA
+H4              GTGGCATACTGTAGAACACGTTTTACACGATACATATATTATGTGGACATGGATTTTACA
+                ************* **********************************************
+
+H3              AGAGTATCCAAGCCAAAAGAATCACGTAATATAAAATGAACCAACTCCCATACATATTGG
+H4              AGAGTATCCAAGCCAAAAGAATCACGTAATATAAAATGAGCCAACTCCCATACATATTGG
+                ***************************************.********************
+
+H3              TACCATATCAAA-----CTTAGCTTTGTGAAAAGAAGCACTAGTTTCATTCCCATATTAT
+H4              TACCATATCAAATTAAACTTAGCTTTGTGAAAAGAAGCACTT---TCATTCCCATATTAT
+                ************     ************************:   ***************
+
+H3              TAAC
+H4              TAAC
+                ****
