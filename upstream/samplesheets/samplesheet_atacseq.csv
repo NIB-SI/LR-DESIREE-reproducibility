@@ -1,0 +1,9 @@
+sample,fastq_1,fastq_2,replicate
+CONTROL,AD437_1.fq.gz,AD437_2.fq.gz,1
+CONTROL,AD439_1.fq.gz,AD439_2.fq.gz,2
+CONTROL,AD441_1.fq.gz,AD441_2.fq.gz,3
+CONTROL,AD443_1.fq.gz,AD443_2.fq.gz,4
+HEAT,AD438_1.fq.gz,AD438_2.fq.gz,1
+HEAT,AD440_1.fq.gz,AD440_2.fq.gz,2
+HEAT,AD442_1.fq.gz,AD442_2.fq.gz,3
+HEAT,AD444_1.fq.gz,AD444_2.fq.gz,4

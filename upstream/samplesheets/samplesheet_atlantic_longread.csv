@@ -1,0 +1,11 @@
+organism,condition,replicate,sample,fastq_1
+Atlantic,leaf,rep1,SRR14993892,SRR14993892.fastq.gz
+Atlantic,leaf,rep2,SRR14993893,SRR14993893.fastq.gz
+Atlantic,leaf,rep3,SRR14993894,SRR14993894.fastq.gz
+Atlantic,leaf,rep4,SRR14993895,SRR14993895.fastq
+Atlantic,leaf,rep5,SRR14996168,SRR14996168.fastq
+Atlantic,tuber,rep1,SRR14995031,SRR14995031.fastq
+Atlantic,tuber,rep2,SRR14995032,SRR14995032.fastq
+Atlantic,tuber,rep3,SRR14995033,SRR14995033.fastq
+Atlantic,tuber,rep4,SRR14995034,SRR14995034.fastq
+Atlantic,tuber,rep5,SRR14995933,SRR14995933.fastq

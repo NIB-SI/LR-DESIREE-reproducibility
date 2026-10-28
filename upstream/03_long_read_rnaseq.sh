@@ -10,6 +10,7 @@
 set -euo pipefail
 
 BIN=$(cd "$(dirname "$0")" && pwd)/bin
+SHEETS=$(cd "$(dirname "$0")" && pwd)/samplesheets
 eval "$(conda shell.bash hook)"
 
 # ---- Désirée ----
@@ -23,7 +24,7 @@ python "$BIN/convert_gtf_CDS2exon.py" \
 
 conda activate sqanti3
 nextflow run main.nf -resume -profile singularity \
-    --input assets/samplesheet_desiree.csv \
+    --input "$SHEETS/samplesheet_desiree_longread.csv" \
     --outdir output_desiree_liftoff_phased_CDS2exon \
     --fasta $DES/De_v1_no_scaffold_chloroplast_mt.fa \
     --gtf $DES/De_v1.unitato_liftoff_haplotap_gffread.with_chloroplast_and_mito.CDS2exon.gtf \
@@ -44,7 +45,7 @@ python "$BIN/convert_gtf_CDS2exon.py" \
 
 conda activate sqanti3
 nextflow run main.nf -resume -profile singularity \
-    --input assets/samplesheet_atlantic.csv \
+    --input "$SHEETS/samplesheet_atlantic_longread.csv" \
     --outdir output_atlantic_liftoff_CDS2exon \
     --fasta $ATL/ATL_v3.asm.with_chloroplast_and_mito.fa \
     --gtf $ATL/unitato2Atl.with_chloroplast_and_mito.no_scaffold.agat.CDS2exon.gtf \

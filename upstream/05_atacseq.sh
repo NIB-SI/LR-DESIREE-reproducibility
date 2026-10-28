@@ -6,11 +6,12 @@
 set -euo pipefail
 
 CONFIG=$(cd "$(dirname "$0")" && pwd)/config/atacseq.config
+SHEETS=$(cd "$(dirname "$0")" && pwd)/samplesheets
 
 nextflow run nf-core/atacseq -r 2.1.2 -resume \
     -profile singularity \
     -c "$CONFIG" \
-    --input Desiree_ASE/input/NGS_stu_dna-seq_2024_timg_desiree-ladyrosetta_ATACseq_ADAPT/samplesheet_ATAC.csv \
+    --input "$SHEETS/samplesheet_atacseq.csv" \
     --outdir Desiree_ASE/output/nf_core_atacseq \
     --gff reference/Desiree_v1/Desiree.longest_isoforms_nodigits.gff \
     --fasta reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa \
