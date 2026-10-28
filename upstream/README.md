@@ -13,8 +13,9 @@ Paths point to the original locations on our cluster; adjust them before running
 | `06_sv_syri.sh` | SVs between all haplotype pairs and their overlap with promoters | minimap2, SyRI |
 | `07_te_analysis.sh` | TE class of promoter SVs | BLAST against EDTA TE libraries |
 
-`bin/` holds the helper scripts called above, `config/` the Nextflow configs and `params/` the
-syntelogfinder parameter files.
+`bin/` holds the helper scripts called above, `config/` the Nextflow configs, `params/` the
+syntelogfinder parameter files and `samplesheets/` the pipeline sample sheets (file names only;
+point them to your copies of the raw data).
 
 Allele-specific expression, differential expression and isoform analyses were run on these
-outputs with [polyase](https://github.com/nadjano/polyase); see the figure notebooks.
+outputs with [polyase](https://github.com/nadjano/polyase); see `../analysis/`.

@@ -1,0 +1,9 @@
+sample,fastq_1,fastq_2,strandedness
+DE_C_H_13,AD317_1.fq.gz,AD317_2.fq.gz,auto
+DE_C_H_14,AD318_1.fq.gz,AD318_2.fq.gz,auto
+DE_C_H_15,AD319_1.fq.gz,AD319_2.fq.gz,auto
+DE_C_H_16,AD320_1.fq.gz,AD320_2.fq.gz,auto
+DE_H_H_17,AD321_1.fq.gz,AD321_2.fq.gz,auto
+DE_H_H_18,AD322_1.fq.gz,AD322_2.fq.gz,auto
+DE_H_H_19,AD323_1.fq.gz,AD323_2.fq.gz,auto
+DE_H_H_20,AD324_1.fq.gz,AD324_2.fq.gz,auto
