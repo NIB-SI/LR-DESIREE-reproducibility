@@ -13,7 +13,7 @@
 
 # DIR=Promotor_analysis_desiree
 # conda activate pyranges
-# python Promotor_analysis_desiree/scripts/promotor_extractor_exon.py  --gff nf-core-plantlongrnaseq/output_desiree_liftoff_phased/gff/combined.fixed.longest_isoforms.gtf  --fasta reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa  --output reference/Desiree_v1/De_v1.unitato_liftoff_haplotap_2000_promotor.gff3 --length 2000
+# python Promotor_analysis_desiree/scripts/promoter_extractor_exon.py  --gff nf-core-plantlongrnaseq/output_desiree_liftoff_phased/gff/combined.fixed.longest_isoforms.gtf  --fasta reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa  --output reference/Desiree_v1/De_v1.unitato_liftoff_haplotap_2000_promotor.gff3 --length 2000
 
 
 

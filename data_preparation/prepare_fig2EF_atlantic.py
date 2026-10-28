@@ -1,7 +1,7 @@
 # Prepare inputs for Fig. 2E/F (Désirée vs. Atlantic allele-specific expression at shared promoters)
-# in clean_notebooks/Fig2_ASE_SV_promoter_analysis_main.ipynb
+# in Fig2_ASE_SV_promoter_analysis_main.ipynb
 #
-# Follows ANALYSIS/notebooks/0_notebooks_for_paper/7_Desiree_Atlantic_ASE_comparison.ipynb:
+# Follows analysis/notebooks/10_ASE_desiree_vs_atlantic.ipynb:
 #   - haplotype pairs tested for allelic imbalance (polyase pairwise cis test) in both cultivars
 #   - whose promoters (1,500 bp) are identical between one Désirée and one Atlantic haplotype for both alleles (BLAST)
 #   - pairs with infinite log2FC (allele not expressed) removed; chr08 genes removed
@@ -21,7 +21,7 @@ CMP_DIR = f"{DIR}/ANALYSIS/ASE_results/comparison_DES_ATL"
 LR_DIR = "nf-core-plantlongrnaseq"
 
 DES_SAMPLES = ["DE_C_H_13", "DE_C_H_14", "DE_C_H_15", "DE_C_H_16"]
-ATL_SAMPLES = ["SRR14993894", "SRR14993895", "SRR14996168"]  # control samples used in the source notebook
+ATL_SAMPLES = ["SRR14993894", "SRR14993895", "SRR14996168"]  # control samples used in the analysis notebook
 
 
 def merged_cis_results(kind):
@@ -45,7 +45,7 @@ def shared_promoter_genes(merged, id_filter, require_both=True):
     blast = blast[id_filter(blast)]
     des_in = blast["Des_gene_id"].isin(merged["gene_id_i_desiree"]) | blast["Des_gene_id"].isin(merged["gene_id_j_desiree"])
     atl_in = blast["Atl_gene_id"].isin(merged["gene_id_i_atlantic"]) | blast["Atl_gene_id"].isin(merged["gene_id_j_atlantic"])
-    # source notebook: '&' for all pairs, '|' for significant pairs (kept as is)
+    # analysis notebook: '&' for all pairs, '|' for significant pairs (kept as is)
     blast = blast[(des_in & atl_in) if require_both else (des_in | atl_in)]
     blast = blast.drop_duplicates(subset=["Des_gene_id"]).drop_duplicates(subset=["Atl_gene_id"])
     blast["Unitato_gene_id"] = blast["Des_gene_id"].str.rsplit(".", n=1).str[0]

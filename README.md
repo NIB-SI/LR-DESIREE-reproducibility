@@ -20,23 +20,26 @@ Code that produces the figure inputs:
 - `upstream/`: annotation liftoff, syntelogs, RNA-seq, ATAC-seq, structural variants and TE
   analysis, with configs and sample sheets; see `upstream/README.md`
 - `analysis/notebooks/`: analyses run on the pipeline outputs (outputs cleared)
-  - `0_DEGene_*` / `0_DEAllele_*`: tximport, ComBat-seq batch correction, CPM filtering,
-    voom/limma (voomLmFit, eBayes) and clusterProfiler enrichment, gene and allele level
-  - `1_gene_count_comparision_*`: long- vs. short-read count comparison
-  - `2_Motif_enrichment_*`: allele-level DE and promoter sets for the motif enrichment
-  - `4_gene_set_enrichment.ipynb`: gene set enrichment of DEGs
-  - `potato_polyase_desiree_batch_corr_CDS.ipynb`: allele-specific expression (PolyASE),
-    control-condition and pairwise tests
-  - `short_potato_polyase.ipynb`: the same with short-read EM counts; writes the multimapping ratios
-  - `DIU_potato_polyase_desiree_batch_corr.ipynb`: differential isoform usage and isoform structure
-  - `6_Atlantic_ASE.ipynb`, `7_Desiree_Atlantic_ASE_comparison.ipynb`: Atlantic ASE and the
+  - `01_DE_gene_level_*` / `02_DE_allele_level_*`: tximport, ComBat-seq batch correction, CPM
+    filtering, voom/limma (voomLmFit, eBayes) and clusterProfiler enrichment
+  - `03_gene_count_comparison_*`: long- vs. short-read count comparison
+  - `04_motif_enrichment_gene_sets.ipynb`: allele-level DE and the gene sets for the motif enrichment
+  - `05_gene_set_enrichment.ipynb`: gene set enrichment of DEGs
+  - `06_ASE_long_read.ipynb`: allele-specific expression (PolyASE), control-condition and pairwise tests
+  - `07_ASE_short_read.ipynb`: the same with short-read EM counts; writes the multimapping ratios
+  - `08_isoform_usage_and_structure.ipynb`: differential isoform usage and isoform structure
+  - `09_ASE_atlantic.ipynb`, `10_ASE_desiree_vs_atlantic.ipynb`: Atlantic ASE and the
     Désirée vs. Atlantic comparison
-  - `peptidase_alignment.ipynb`: promoter alignment for Fig. 3F
-- `analysis/scripts/`: promoter extraction (`promotor_extractor*.py`, 2 kb promoters of the
-  heat-induced and non-changing alleles, 1.5 kb promoters and BLASTn for Désirée vs. Atlantic)
-  and haplotype tagging of reads for the JBrowse views (`primary_alignment_haplotag.py`)
+  - `11_peptidase_promoter_alignment.ipynb`: promoter alignment for Fig. 3F
+- `analysis/scripts/`: promoter extraction (`promoter_extractor*.py`), 2 kb promoters of the
+  heat-induced and non-changing alleles (`extract_promoters_heat_induced.sh`), and 1.5 kb
+  promoters with BLASTn for Désirée vs. Atlantic (`extract_promoters_desiree_atlantic_blast.sh`)
 - `data_preparation/`: scripts that build the input tables of the figure notebooks from the
   outputs above
+
+Motif enrichment of the two promoter sets was run on the [MEME Suite](https://meme-suite.org)
+web server. Haplotype tagging of reads for the JBrowse views is part of
+[nf-core/plantlongrnaseq](https://github.com/nadjano/nf-core-plantlongrnaseq).
 
 ## Quality control
 

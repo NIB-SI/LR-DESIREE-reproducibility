@@ -1,7 +1,7 @@
-# Prepare the inputs for clean_notebooks/Fig5_isoform_expression.ipynb
+# Prepare the inputs for Fig5_isoform_expression.ipynb
 #
 # Re-runs the isoform-level analysis of
-#   ANALYSIS/notebooks/Polyase_analysis/DIU_potato_polyase_desiree_batch_corr.ipynb
+#   analysis/notebooks/08_isoform_usage_and_structure.ipynb
 # and keeps only what the figure needs:
 #   DIU_results.csv                               differential isoform usage heat vs. control, all isoforms (panel C)
 #   isoform_structure_results_control.csv        differential isoform structure between haplotypes, control (panel A)
@@ -44,7 +44,7 @@ adata_isoform = poly.load_ase_data(
 
 # --- replace counts by ComBat-seq batch-corrected counts (cell 9) ---
 # columns are matched by sample name: the sample order differs between these files and adata.obs
-# (the source notebook assigned them by position, which swapped replicates within each condition)
+# (the analysis notebook assigned them by position, which swapped replicates within each condition)
 em = pd.read_csv(f"{LR_DIR}/tximeta/all_samples.transcript_counts_combat_seq_corrected.tsv", sep="\t", index_col=0)
 em = em.drop(columns=["gene_id"])
 unique = pd.read_csv(f"{LR_DIR}/oarfish_batch_corrected/allelic_unique_transcript_counts.tsv", sep="\t", index_col=0)
@@ -97,7 +97,7 @@ def isoform_structure_test(condition, layer, min_similarity):
                                                     min_similarity_for_matching=min_similarity, inplace=True)
 
 
-# parameters as in the source notebook (heat: unique counts, similarity 0.90; control: EM counts, 0.95)
+# parameters as in the analysis notebook (heat: unique counts, similarity 0.90; control: EM counts, 0.95)
 _, structure_plotting_heat = isoform_structure_test("heat", "unique_counts", 0.90)
 structure_plotting_heat[structure_plotting_heat["gene_id"].str.startswith(STRUCTURE_GENE)] \
     .to_pickle("isoform_structure_plotting_heat_ABH.pkl")

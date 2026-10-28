@@ -1,8 +1,8 @@
-# Prepare the clean inputs for clean_notebooks/Fig1_short_vs_long_read_comparison.ipynb
+# Prepare the clean inputs for Fig1_short_vs_long_read_comparison.ipynb
 #
 # Re-runs the DE steps from
-#   ANALYSIS/notebooks/0_notebooks_for_paper/0_DEGene_Kinnex_vs_Illumina_combat_limma.ipynb   (DM genome)
-#   ANALYSIS/notebooks/0_notebooks_for_paper/0_DEAllele_Kinnex_vs_Illumina_combat_limma.ipynb (haplotype-resolved)
+#   analysis/notebooks/01_DE_gene_level_long_vs_short_read.ipynb  (DM genome)
+#   analysis/notebooks/02_DE_allele_level_long_vs_short_read.ipynb (haplotype-resolved)
 # ComBat-seq on long-read counts -> voomLmFit (corrected + uncorrected), tximport + voomLmFit for short reads.
 #
 # Usage: Rscript prepare_fig1_data.R   (run from this directory, deseq2 conda env)
@@ -83,7 +83,7 @@ prepare_level <- function(label, lr_run, sr_run, min_cpm, min_samples, haplotype
                      sprintf("DE_%s_short.csv", label))
 }
 
-# DM genome: CPM > 3 in >= 5 samples ; haplotype-resolved: CPM > 4 in >= 6 samples (as in the source notebooks)
+# DM genome: CPM > 3 in >= 5 samples ; haplotype-resolved: CPM > 4 in >= 6 samples (as in the analysis notebooks)
 prepare_level("DM",  "output_desiree_unitato",        "nf_core_rnaseq_short_read_heat_unitato",                 3, 5, FALSE)
 prepare_level("hap", "output_desiree_liftoff_phased", "nf_core_rnaseq_short_read_heat_phased_desiree_liftoff", 4, 6, TRUE)
 

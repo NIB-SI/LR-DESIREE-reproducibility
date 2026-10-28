@@ -2,7 +2,7 @@
 ##### ATlantic
 # get promotor coordinated form gff
 conda activate pyranges
-python Promotor_analysis_desiree/scripts/promotor_extractor.py  --gff reference/Atlantic/unitato2Atl.with_chloroplast_and_mito.no_scaffold.gff3    --fasta reference/Atlantic/ATL_v3.asm.with_chloroplast_and_mito.fa     --output reference/Atlantic/unitato2Atl.promoter1500.agat.gtf --length 1500
+python Promotor_analysis_desiree/scripts/promoter_extractor.py  --gff reference/Atlantic/unitato2Atl.with_chloroplast_and_mito.no_scaffold.gff3    --fasta reference/Atlantic/ATL_v3.asm.with_chloroplast_and_mito.fa     --output reference/Atlantic/unitato2Atl.promoter1500.agat.gtf --length 1500
 
 # extract the promotors form fasta
 conda activate gffread
@@ -11,7 +11,7 @@ gffread  -g reference/Atlantic/ATL_v3.asm.with_chloroplast_and_mito.fa   -w  ref
 
 ## desiree 
 conda activate pyranges
-python Promotor_analysis_desiree/scripts/promotor_extractor.py  --gff  reference/Desiree_v1/De_v1.unitato_liftoff_haplotap_gffread.gff     --fasta reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa     --output reference/Desiree_v1/De_v1.promoter1500.agat.gtf --length 1500
+python Promotor_analysis_desiree/scripts/promoter_extractor.py  --gff  reference/Desiree_v1/De_v1.unitato_liftoff_haplotap_gffread.gff     --fasta reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa     --output reference/Desiree_v1/De_v1.promoter1500.agat.gtf --length 1500
 
 conda activate gffread
 gffread  -g reference/Desiree_v1/De_v1_no_scaffold_chloroplast_mt.fa   -w  reference/Desiree_v1/De_v1.promoter1500.fa reference/Desiree_v1/De_v1.promoter1500.agat.gtf

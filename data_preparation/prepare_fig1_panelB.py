@@ -1,8 +1,7 @@
-# Prepare the per-locus unique mapping rate inputs for clean_notebooks/Fig1_short_vs_long_read_comparison.ipynb
+# Prepare the per-locus unique mapping rate inputs for Fig1_short_vs_long_read_comparison.ipynb
 #
 # Unique mapping rate = unique / (unique + ambiguous) reads of single-isoform genes, summed over all 8 samples
-# (control DE_C_H_13-16, heat DE_H_H_17-20). Based on ANALYSIS/Reference_comparison/Unitato_vs_desiree_liftoff.ipynb
-# (cells 24-29), which used a single sample per group.
+# (control DE_C_H_13-16, heat DE_H_H_17-20).
 #
 # Outputs:
 #   unique_mapping_rate_single_isoform_genes.csv     panel B: genes with > 20 reads, present in both technologies
