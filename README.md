@@ -43,7 +43,7 @@ Code that produces the figure inputs:
 
 Motif enrichment of the two promoter sets was run on the [MEME Suite](https://meme-suite.org)
 web server. Haplotype tagging of reads for the JBrowse views is part of
-[nf-core/plantlongrnaseq](https://github.com/nadjano/nf-core-plantlongrnaseq).
+[NIB-SI/plantlongrnaseq](https://github.com/nadjano/nf-core-plantlongrnaseq).
 
 ## Quality control
 
