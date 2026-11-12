@@ -2,7 +2,7 @@
 
 Reproducibility notebooks for:
 
-**Long-read RNA-seq and haplotype-resolved reference genome resolve haplotype- and isoform-level heat responses in tetraploid potato**
+**Haplotype-resolved long-read transcriptomics uncovers allele-specific heat stress induction and a nucleus-targeted chaperone isoform in potato**
 
 ## Contents
 
