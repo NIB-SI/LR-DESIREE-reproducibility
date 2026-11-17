@@ -5,6 +5,8 @@ Reproducibility notebooks for:
 
 **Haplotype-resolved long-read transcriptomics uncovers allele-specific heat stress induction and a nucleus-targeted chaperone isoform in potato**
 
+bioRxiv 2026.11.14.766623; doi: https://doi.org/10.64898/2026.11.14.766623
+
 ## Contents
 
 Figure notebooks:
