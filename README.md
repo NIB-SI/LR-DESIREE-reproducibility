@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24304736.svg)](https://doi.org/10.5281/zenodo.24304736)
 # LR-DESIREE-reproducibility
 
 Reproducibility notebooks for:
