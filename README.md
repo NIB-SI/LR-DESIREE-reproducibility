@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24304736.svg)](https://doi.org/10.5281/zenodo.24304736)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24304736.svg)](https://doi.org/10.5281/zenodo.24304736)[![bioRxiv](https://img.shields.io/badge/bioRxiv-10.64898%2F2026.11.14.766623-b31b1b)](https://doi.org/10.64898/2026.11.14.766623)
 # LR-DESIREE-reproducibility
 
 Reproducibility notebooks for:
